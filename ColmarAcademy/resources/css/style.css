@@ -6,8 +6,12 @@ body {
 }
 
 .navbar {
-
-  display: flex; /* Use flexbox to align items horizontally */
+display: flex; /* Use flexbox to align items horizontally */
+position: sticky;
+top: 0px;
+left: 0px;
+background-color: #fafafa;
+z-index: 1;
 }
 
 #logo-color {
@@ -27,6 +31,7 @@ display: flex;
 list-style-type: none;
 display: flex;
 margin-left: 64%;
+margin-top: 32px;
 
 }
 
@@ -34,15 +39,212 @@ margin-left: 64%;
 padding-right: 20px;
 }
 
-.items h4{
+.items a{
   font-weight: 200;
+  color: #5f6769;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+
   }
-
-
-
 
 .flex-container-top {
 background-color: #ececec;
+display: flex;
+}
+
+.flex-container-top ul {
+  list-style-type: none;
+  }
+
+.flex-container-top img {
+
+  width: 60%;
+  padding: 32px 24px;
+  }
+
+.flex-container-top li h1 {
+  list-style-type: none;
+  position: absolute;
+  width: 650px;
+  left: 80%;
+  top: 40%;
+  transform: translate(-50%, -50%)
+}
+
+.flex-container-top li h2 {
+  list-style-type: none;
+  position: absolute;
+  width: 650px;
+  left: 80%;
+  top: 60%;
+  transform: translate(-50%, -50%)
+}
+
+#header-top {
+font-size: 60px;
+}
+
+#button-top{
+  background-color: #3c4245;
+  border: none; /* Remove border */
+  color: white; /* White text color */
+  width: 500px;
+  padding: 15px 50px; /* Padding to make the button larger */
+  text-align: center; /* Center text horizontally */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button a block element */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin around the button */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners */
+  position: absolute;
+  left: 76%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  list-style-type: none;
+}
+
+.container-1 {
+
 
 
 }
+
+.cards{
+  position: absolute;
+  left: 82%;
+  top: 160.4%;
+  transform: translate(-50%, -50%);
+
+
+  }
+.card {
+  width: 720px;
+  height: 300px;
+  display: flex;
+  overflow: hidden; /* Hide overflow from image */
+  background-color: #ececec;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-right: 44px;
+  }
+
+.card-img {
+  width: 35%; /* Example image width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 16px 16px;
+}
+
+.card-content {
+  padding: 20px; /* Example padding */
+}
+
+.card-title {
+  font-size: 20px; /* Example font size */
+  margin-top: 36px; /* Example margin */
+}
+
+.card-description {
+  margin-top: 10px; /* Example margin */
+}
+
+.card-description a {
+  text-decoration: none;
+}
+
+
+
+.card-1 {
+  width: 720px;
+  height: 300px;
+  display: flex;
+  overflow: hidden; /* Hide overflow from image */
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.card-img-1 {
+  width: 35%; /* Example image width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 16px 16px;
+}
+
+.card-content-1 {
+  padding: 20px; /* Example padding */
+}
+
+.card-title-1 {
+  font-size: 20px; /* Example font size */
+  margin-top: 36px; /* Example margin */
+}
+
+.card-description-1 {
+  margin-top: 10px; /* Example margin */
+}
+
+.card-description-1 a {
+  text-decoration: none;
+}
+
+.card-2 {
+  width: 720px;
+  height: 300px;
+  display: flex;
+  overflow: hidden; /* Hide overflow from image */
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.card-img-2 {
+  width: 35%; /* Example image width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 16px 16px;
+}
+
+.card-content-2 {
+  padding: 20px; /* Example padding */
+}
+
+.card-title-2 {
+  font-size: 20px; /* Example font size */
+  margin-top: 36px; /* Example margin */
+}
+
+.card-description-2 {
+  margin-top: 10px; /* Example margin */
+}
+
+.card-description-2 a {
+  text-decoration: none;
+}
+
+.item-1 {
+margin: 32px 26px;
+
+
+}
+
+.item-1 img {
+width: 1268px;
+
+  }
+
+.item-1 h1 {
+ font-size: 56px;
+ margin-top: 24px;
+ margin-bottom: 24px;
+}
+
+.item-1 p {
+  width: 840px;
+  font-size: 18px;
+
+ }
+
+ .item-1 span {
+  width: 840px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 32px;
+
+ }
