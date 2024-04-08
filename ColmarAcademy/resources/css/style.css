@@ -459,28 +459,44 @@ margin-top: 10px; /* Example margin */
 text-align: start; /* Center text horizontally */
    }
 
+.lower-div h1 {
+text-align: center;
+padding-top: 32px;
+margin-bottom: 32px;
+   }
+
 .container-2 {
-
-
-display: flex;}
-
-.element {
-height: 760px;
-width: 1068px;
-z-index: 1;
-background-color: pink;
+display: flex;
 
 }
 
+
+
+.container-2 video {
+height: 700px;
+width: 60%;
+padding-left: 24px;
+margin-top: 30px;
+margin-left: 12px;
+
+}
+
+.container-2 li {
+ list-style: none;
+
+  }
+
+
 .carta-1 {
 width: 720px;
-height: 300px;
+height: 290px;
 display: flex;
 overflow: hidden; /* Hide overflow from image */
 background-color: #ececec;
 margin-top: 16px;
+margin-left: 62px;
 margin-bottom: 16px;
-padding-right: 58px;
+padding-right: 64px;
      }
 
 .carta-img-1 {
@@ -496,19 +512,22 @@ padding: 20px; /* Example padding */
 .carta-title-1 {
 font-size: 20px; /* Example font size */
 margin-top: 36px; /* Example margin */
+width: 240px
    }
 
 .carta-description-1 {
 margin-top: 10px; /* Example margin */
+width: 240px
    }
 
 
 .carta-2 {
 width: 720px;
-height: 300px;
+height: 290px;
 display: flex;
 overflow: hidden; /* Hide overflow from image */
 margin-top: 16px;
+margin-left: 62px;
 margin-bottom: 16px;
    }
 
@@ -529,4 +548,15 @@ margin-top: 36px; /* Example margin */
 
 .carta-description-2 {
 margin-top: 10px; /* Example margin */
+   }
+
+#thesis-title {
+margin-left: 38px;
+text-align: left;
+   }
+
+.thesis-p {
+  text-align: start;
+margin-left: 38px;
+width: 1200px;
    }
