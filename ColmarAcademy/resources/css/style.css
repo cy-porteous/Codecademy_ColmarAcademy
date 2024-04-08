@@ -118,7 +118,7 @@ font-size: 60px;
 
 
   }
-.card {
+.card-0 {
   width: 720px;
   height: 300px;
   display: flex;
@@ -126,29 +126,29 @@ font-size: 60px;
   background-color: #ececec;
   margin-top: 16px;
   margin-bottom: 16px;
-  padding-right: 44px;
+  padding-right: 58px;
   }
 
-.card-img {
+.card-img-0 {
   width: 35%; /* Example image width */
   height: auto; /* Maintain aspect ratio */
   margin: 16px 16px;
 }
 
-.card-content {
+.card-content-0 {
   padding: 20px; /* Example padding */
 }
 
-.card-title {
+.card-title-0 {
   font-size: 20px; /* Example font size */
   margin-top: 36px; /* Example margin */
 }
 
-.card-description {
+.card-description-0 {
   margin-top: 10px; /* Example margin */
 }
 
-.card-description a {
+.card-description-0 a {
   text-decoration: none;
 }
 
@@ -221,12 +221,10 @@ font-size: 60px;
 .item-1 {
 margin: 32px 26px;
 
-
 }
 
 .item-1 img {
 width: 1268px;
-
   }
 
 .item-1 h1 {
@@ -236,9 +234,8 @@ width: 1268px;
 }
 
 .item-1 p {
-  width: 840px;
-  font-size: 18px;
-
+width: 840px;
+font-size: 18px;
  }
 
  .item-1 span {
@@ -248,3 +245,288 @@ width: 1268px;
   margin-bottom: 32px;
 
  }
+
+.start-learning-div {
+background-color: #ececec;
+padding-top: 32px;
+padding-bottom: 32px;
+
+}
+.six-card-container-heading {
+font-size: 52px;
+text-align: center;
+margin-top: 32px;
+margin-bottom: 32px;
+
+}
+
+.six-card-container {
+  margin: 32px 72px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Gap between cards */
+}
+
+.card-a {
+height: 540px;
+background-color: #fafafa;
+overflow: hidden; /* Hide overflow from image */
+
+}
+
+.card-content-a {
+
+  display: flex;
+  flex-direction: column;
+  align-items: self-start; /* Center items horizontally */
+}
+
+.card-img-a {
+  width: 100%; /* Image width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.card-title-a {
+  padding-top: 16px;
+  padding-left: 16px;
+  font-size: 20px; /* Example font size */
+  margin-top: 0; /* Example margin */
+}
+
+.card-description-a {
+  width: 300px;
+  padding-left: 16px;
+  margin-top: 10px; /* Example margin */
+  text-align: start; /* Center text horizontally */
+}
+
+.card-b {
+
+  height: 540px;
+  background-color: #fafafa;
+  overflow: hidden; /* Hide overflow from image */
+
+  }
+
+.card-content-b {
+display: flex;
+flex-direction: column;
+align-items: self-start; /* Center items horizontally */
+  }
+
+.card-img-b {
+width: 100%; /* Image width */
+height: auto; /* Maintain aspect ratio */
+  }
+
+.card-title-b {
+  padding-top: 16px;
+  padding-left: 16px;
+font-size: 20px; /* Example font size */
+ margin-top: 0; /* Example margin */
+  }
+
+.card-description-b {
+  width: 300px;
+  padding-left: 16px;
+margin-top: 10px; /* Example margin */
+text-align: start; /* Center text horizontally */
+  }
+
+.card-c {
+height: 540px;
+background-color: #fafafa;
+overflow: hidden; /* Hide overflow from image */
+
+    }
+
+.card-content-c {
+display: flex;
+flex-direction: column;
+align-items: self-start; /* Center items horizontally */
+    }
+
+.card-img-c {
+width: 100%; /* Image width */
+height: auto; /* Maintain aspect ratio */
+    }
+
+.card-title-c {
+  padding-top: 16px;
+  padding-left: 16px;
+font-size: 20px; /* Example font size */
+margin-top: 0; /* Example margin */
+}
+
+.card-description-c {
+  width: 300px;
+  padding-left: 16px;
+margin-top: 10px; /* Example margin */
+text-align: start; /* Center text horizontally */
+    }
+
+ .card-d {
+height: 540px;
+background-color: #fafafa;
+overflow: hidden; /* Hide overflow from image */
+  }
+
+.card-content-d {
+display: flex;
+flex-direction: column;
+align-items: self-start; /* Center items horizontally */
+      }
+
+ .card-img-d {
+width: 100%; /* Image width */
+height: auto; /* Maintain aspect ratio */
+}
+
+.card-title-d {
+  padding-top: 16px;
+  padding-left: 16px;
+font-size: 20px; /* Example font size */
+ margin-top: 0; /* Example margin */
+      }
+
+.card-description-d {
+  width: 300px;
+  padding-left: 16px;
+margin-top: 10px; /* Example margin */
+text-align: start; /* Center text horizontally */
+      }
+
+.card-e {
+height: 540px;
+background-color: #fafafa;
+overflow: hidden; /* Hide overflow from image */
+
+ }
+
+ .card-content-e {
+display: flex;
+flex-direction: column;
+align-items: self-start; /* Center items horizontally */
+        }
+
+.card-img-e {
+width: 100%; /* Image width */
+height: auto; /* Maintain aspect ratio */
+        }
+
+.card-title-e {
+  padding-top: 16px;
+  padding-left: 16px;
+font-size: 20px; /* Example font size */
+margin-top: 0; /* Example margin */
+        }
+
+.card-description-e {
+  width: 300px;
+  padding-left: 16px;
+margin-top: 10px; /* Example margin */
+text-align: start; /* Center text horizontally */
+ }
+
+.card-f {
+height: 540px;
+background-color: #fafafa;
+overflow: hidden; /* Hide overflow from image */
+     }
+
+.card-content-f {
+display: flex;
+flex-direction: column;
+align-items: self-start; /* Center items horizontally */
+          }
+
+.card-img-f {
+width: 100%; /* Image width */
+height: auto; /* Maintain aspect ratio */
+ }
+
+.card-title-f {
+  padding-top: 16px;
+  padding-left: 16px;
+font-size: 20px; /* Example font size */
+margin-top: 0; /* Example margin */
+   }
+
+.card-description-f {
+  width: 300px;
+  padding-left: 16px;
+margin-top: 10px; /* Example margin */
+text-align: start; /* Center text horizontally */
+   }
+
+.container-2 {
+
+
+display: flex;}
+
+.element {
+height: 760px;
+width: 1068px;
+z-index: 1;
+background-color: pink;
+
+}
+
+.carta-1 {
+width: 720px;
+height: 300px;
+display: flex;
+overflow: hidden; /* Hide overflow from image */
+background-color: #ececec;
+margin-top: 16px;
+margin-bottom: 16px;
+padding-right: 58px;
+     }
+
+.carta-img-1 {
+width: 35%; /* Example image width */
+height: auto; /* Maintain aspect ratio */
+margin: 16px 16px;
+   }
+
+.carta-content-1 {
+padding: 20px; /* Example padding */
+   }
+
+.carta-title-1 {
+font-size: 20px; /* Example font size */
+margin-top: 36px; /* Example margin */
+   }
+
+.carta-description-1 {
+margin-top: 10px; /* Example margin */
+   }
+
+
+.carta-2 {
+width: 720px;
+height: 300px;
+display: flex;
+overflow: hidden; /* Hide overflow from image */
+margin-top: 16px;
+margin-bottom: 16px;
+   }
+
+.carta-img-2 {
+width: 35%; /* Example image width */
+height: auto; /* Maintain aspect ratio */
+margin: 16px 16px;
+   }
+
+.carta-content-2 {
+padding: 20px; /* Example padding */
+   }
+
+.carta-title-2 {
+font-size: 20px; /* Example font size */
+margin-top: 36px; /* Example margin */
+   }
+
+.carta-description-2 {
+margin-top: 10px; /* Example margin */
+   }
