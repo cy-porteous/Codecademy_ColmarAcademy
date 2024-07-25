@@ -1,1 +1,1 @@
-# codeacademy_ColmarAcademy
+# codecademy_ColmarAcademy
